@@ -56,4 +56,4 @@ Substituindo valores no texto
     ${NOVO_TEXTO}    Replace String    string=${TEXTO}    search_for=Minha Linha    replace_with=Conteúdo da minha linha
     Log              O velho texto era assim:\n${TEXTO}\nO novo texto ficou assim:\n${NOVO_TEXTO}
     Create File      ${CURDIR}${/}my_files${/}meu_novo_arquivo.txt    ${NOVO_TEXTO}
-    ##Remove File      ${CURDIR}${/}my_files${/}meu_novo_arquivo.txt    
+    Remove File      ${CURDIR}${/}my_files${/}meu_novo_arquivo.txt    

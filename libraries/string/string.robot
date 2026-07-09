@@ -7,13 +7,15 @@ Library          OperatingSystem
 
 *** Test Cases ***
 #Exemplo 01: Lidando com linhas de um texto String
-    #Contando as linhas
-    #Pegando uma linha específica
-    #Pegando uma linha específica com a palavra "linha 01"
-    #Pegando até um marcador
+    Contando as linhas
+    Pegando uma linha específica
+    Pegando uma linha específica com a palavra "linha 01"
+    Pegando até um marcador
 
 Exemplo 02: Manippulando a String
     Substituindo valores no texto
+    Quero tudo minúsculo!
+    Quero tudo maiúsculo!
 
 *** Keywords ***
 Pega arquivo
@@ -57,3 +59,13 @@ Substituindo valores no texto
     Log              O velho texto era assim:\n${TEXTO}\nO novo texto ficou assim:\n${NOVO_TEXTO}
     Create File      ${CURDIR}${/}my_files${/}meu_novo_arquivo.txt    ${NOVO_TEXTO}
     Remove File      ${CURDIR}${/}my_files${/}meu_novo_arquivo.txt    
+
+Quero tudo minúsculo!
+    ${TEXTO}    Pega arquivo
+    ${TEXTO}    Convert To Lower Case    ${TEXTO}
+    Log         Meu texto todo minúsculo:\n${TEXTO}
+
+Quero tudo maiúsculo!
+    ${TEXTO}    Pega arquivo   
+    ${TEXTO}    Convert To Upper Case    ${TEXTO}
+    Log         Meu texto todo maiúsculo:\n${TEXTO}

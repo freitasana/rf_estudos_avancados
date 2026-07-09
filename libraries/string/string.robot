@@ -6,7 +6,7 @@ Library          OperatingSystem
 
 
 *** Test Cases ***
-#Exemplo 01: Lidando com linhas de um texto String
+Exemplo 01: Lidando com linhas de um texto String
     Contando as linhas
     Pegando uma linha específica
     Pegando uma linha específica com a palavra "linha 01"

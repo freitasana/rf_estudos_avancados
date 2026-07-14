@@ -30,7 +30,7 @@ Exemplo 03: Select Statement
     Log    Usuário ${RESPOSTA_SELECT [0][0]} - Nome: ${RESPOSTA_SELECT [0][1]} - Email: ${RESPOSTA_SELECT [0][3]}
     Log    Usuário ${RESPOSTA_SELECT [1][0]} - Nome: ${RESPOSTA_SELECT [1][1]} - Email: ${RESPOSTA_SELECT [1][3]}
 
-Exemplo 04: Alterando dados de um registro no banco
+Exemplo 04: Alterando email de um usuário
     Executar script via STRING no Banco de Dados      SCRIPT=UPDATE account SET email = 'robot@robot.com' where user_id=1
 
 Exemplo 05: Limpando Tabelas

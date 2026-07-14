@@ -49,6 +49,6 @@ Execute um script e aguarde ele finalizar com falha
     Verifica sucesso na execução do processo      ${MEU_PROCESSO}
 
 Executando comandos diversos de prompt
-    ## Use o atributo shell=True para habilitar as funções de shell, como criar um diretório por exemplo
+    ## Use shell=True para executar comandos do shell, como mkdir ( criação de diretório) e rmdir( remoção de diretório )
     Run Process    mkdir robot_teste    cwd=${CURDIR}    shell=True
     Run Process    rmdir robot_teste    cwd=${CURDIR}    shell=True

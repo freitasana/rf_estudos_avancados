@@ -1,4 +1,12 @@
+# Robot Framework
 /results
 log.html
 output.xml
 report.html
+
+# Python
+__pycache__/
+*.py[cod]
+
+# VS Code
+.vscode/settings.json

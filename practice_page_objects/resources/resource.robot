@@ -13,6 +13,7 @@ Abrir navegador
     Maximize Browser Window
 
 Fechar navegador
+    Capture Page Screenshot
     Close Browser
 
 

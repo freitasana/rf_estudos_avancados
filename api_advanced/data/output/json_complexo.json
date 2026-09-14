@@ -1,0 +1,41 @@
+{
+    "pessoa":{
+        "nome":{
+            "primeiro_nome":"Ana Paula",
+            "nome_do_meio": " de Freitas",
+            "ultimo_nome": "da Silva",
+            "apelido": "Ana"
+        },
+
+    "hobbies":{
+        "livros":[
+            {
+                "titulo":"O Evangelho o segundo o Espiritismo",
+                "autor": "Allan Kardec"
+            },
+            {
+                "titulo":"Se abrindo pra vida",
+                "autor": "Zibia Gasparetto"
+            },
+            {
+                "titulo":"Chatgpt Explicado",
+                "autor": "Helbert Costa"
+            }
+        ],
+        
+             "games": {
+                "minigame": [
+                    "Mario",
+                    "Mortal Kombat",
+                    "Street Fighter"
+                ],
+                "PS5": [
+                    "It takes two",
+                    "God of War",
+                    "Astro Bot"
+                ]  
+              }
+           }
+        } 
+}
+    
